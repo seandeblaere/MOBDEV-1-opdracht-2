@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Erica+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+
+:root {
+  --white: #fff;
+  --primary: #a1e2ff;
+  --primary500: #1f7197;
+  --primary900: #10242d;
+  --secondary: #1cb4ff;
+  --gray: #768e99;
+  --gray100: #ccdee6;
+  --background: #f1fbff;
+  --red: #cf2c4d;
+  --red100: #f9a2b2;
+
+  --text-color: var(--primary-900);
+
+  --font-sans: "Poppins", sans-serif;
+  --font-title: "Erica One", sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --border-radius: 3rem;
+}
+
+body {
+  background: var(--background);
+  font-family: var(--font-sans);
+  color: var(--text-color);
+}
+
+input {
+  border: none;
+  border-radius: var(--border-radius);
+}
+
+a {
+  color: inherit;
+}
